@@ -182,3 +182,78 @@ h1 {
         padding: 28px 20px;
     }
 }
+
+/* Assignment 2 additions */
+.search-box input::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+.filters button {
+    border: 0;
+    padding: 0;
+    background: none;
+    color: #555;
+    font: inherit;
+    cursor: pointer;
+}
+
+.filters .selected-filter {
+    color: #dc4c3e;
+    font-weight: 700;
+}
+
+.task-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.task-list label {
+    flex: 1;
+    min-width: 0;
+}
+
+.task-list li.completed label span {
+    color: #888;
+    text-decoration: line-through;
+}
+
+.delete-button {
+    border: 0;
+    background: none;
+    color: #dc4c3e;
+    font: inherit;
+    cursor: pointer;
+}
+
+.task-form {
+    display: flex;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+.task-form input {
+    flex: 1;
+    min-width: 0;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font: inherit;
+}
+
+.task-form button {
+    border: 0;
+    border-radius: 3px;
+    padding: 8px 12px;
+    background: #dc4c3e;
+    color: white;
+    font: inherit;
+    cursor: pointer;
+}
